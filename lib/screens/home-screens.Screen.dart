@@ -26,10 +26,7 @@ class _HomeScreenState extends State<HomeScreen> {
           Navigator.push(
             context,
             CupertinoPageRoute(
-              builder: (_) => BlocProvider.value(
-                value: BlocProvider.of<DatabaseBloc>(context),
-                child: AddTaskScreen(),
-              ),
+              builder: (_) => AddTaskScreen(),
             ),
           );
         },

@@ -18,7 +18,7 @@ class TaskTile extends StatelessWidget {
           color: Colors.red,
           icon: Icons.delete,
           onTap: () {
-            BlocProvider.of<DatabaseBloc>(context).add(DeleteEvent(task: task));
+            // BlocProvider.of<DatabaseBloc>(context).add(DeleteEvent(task: task));
           },
         ),
       ],

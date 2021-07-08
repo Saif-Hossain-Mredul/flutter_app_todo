@@ -1,9 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
-import 'package:flutter_app_todo/BLoC/database_bloc.dart';
 import 'package:flutter_app_todo/utilities/task-model.utilities.dart';
 
 class AddTaskScreen extends StatefulWidget {

@@ -173,9 +173,6 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
 
                         print('uploaded');
 
-                        // BlocProvider.of<DatabaseBloc>(context)
-                        //     .add(InsertEvent(task: task));
-
                         Navigator.pop(context);
                       }
                     },
